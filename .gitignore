@@ -135,3 +135,8 @@ chromedriver*
 # credential files
 credential.json
 cookies
+
+log/
+
+#tmp file
+*.swp
