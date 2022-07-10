@@ -186,4 +186,5 @@ class ShopeeCoinBot:
 
         ret = self.checkin()
         self.logger.info('Execution result = %d' % ret)
+        self.browser.quit()
         return ret
