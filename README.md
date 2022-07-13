@@ -39,6 +39,13 @@ python main.py --help
 - `--chrome-driver-path`: selenium 串接 chrome 瀏覽器用的 chrome driver 位置，請參考: https://www.selenium.dev/documentation/webdriver/getting_started/install_drivers/
 - `--show-gui`: 顯示瀏覽器的 GUI 界面，有助於除錯
 
+credential.json example:
+```
+{
+    "username" : "myidislion",
+    "password" : "mypasswordisqwerty"
+}
+```
 
 ## Exit Code
 
